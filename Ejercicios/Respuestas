@@ -5,3 +5,12 @@ Ejercicio 1
     En el normalmente se utiliza la regla de maximal munch que significa que el match más largo gana, por lo tanto el patron
     ^.*\n no sirviria en este codigo ya que leeria toda la linea completa y pasaria por alto la regla que detecta el #include,
     por eso el codigo utiliza reglas pequeñas para que no se pase por alto nada y asi no se ignoran tokens importantes.
+
+Ejercico 3
+  Una de las tecnicas haría mucho más sucio producir la referencia cruzada. ¿Cuál? ¿Por qué?
+  ° Cual?
+    La técnica de Rehashing sería mucho más "sucia" (messier) para producir la referencia cruzada final.
+  ° Por que?
+    Para que se geenre la impresion del reporte final se necesita que los datos esten organizados para que se ordenen alfabeticamente,
+    en la tecnica Chaining los simbolos estan en listas que se recorren con mayor facilidad, en cambio Rehashing es mas lento este proceso 
+    por la creacion continua de tablas nuevas y el cambio de posicion de los datos.
