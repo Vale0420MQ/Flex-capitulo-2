@@ -1,0 +1,7 @@
+Respuestas
+
+Ejercicio 1
+  ¿Por qué el ejemplo 2-3 no coincide con las líneas una a la vez con un patrón como ^.*\n?
+    En el normalmente se utiliza la regla de maximal munch que significa que el match más largo gana, por lo tanto el patron
+    ^.*\n no sirviria en este codigo ya que leeria toda la linea completa y pasaria por alto la regla que detecta el #include,
+    por eso el codigo utiliza reglas pequeñas para que no se pase por alto nada y asi no se ignoran tokens importantes.
